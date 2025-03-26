@@ -20,18 +20,16 @@ python -m PyLogAnim
 import PyLogAnim
 
 logo_altmono = [
-    "╔══════════════════════════════════╗",
-    "║    _   _ _                       ║",
-    "║   /_\ | | |_ _ __  ___ _ _  ___  ║",
-    "║  / _ \| |  _| '  \/ _ \ ' \/ _ \ ║",
-    "║ /_/ \_\_|\__|_|_|_\___/_||_\___/ ║",
-    "║                                  ║",
-    "╚══════════════════════════════════╝"
+    "    _   _ _                       ",
+    "   /_\ | | |_ _ __  ___ _ _  ___  ",
+    "  / _ \| |  _| '  \/ _ \ ' \/ _ \ ",
+    " /_/ \_\_|\__|_|_|_\___/_||_\___/ ",
+    "                                  "
 ]
 
-PyLogAnim.animate_logo(logo=logoAltmono, colormode=PyLogAnim.colormodes.RGB, delay=0.01, reverse=False)
+PyLogAnim.animate_logo(logo=logo_altmono, colormode=PyLogAnim.colormodes.RGB, delay=0.01, reverse=False)
 ```
-This will produce something like:<br>
+This will produce something like this (sadly without borders, as PyPi completely screwed up with those chars):<br>
 ![Altmono logo](img/altmono.png)
 
 ---
